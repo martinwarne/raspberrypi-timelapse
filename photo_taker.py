@@ -125,7 +125,7 @@ class VideoGenerator(object):
         """Use anconv to create the timelapse."""
         # TODO this is really slow. Need to find a way to do it remotely on a
         # more powerful box
-        os.system("avconv -y -i images/image-%04d.jpg -r 1 video/timelapse.mp4")
+        os.system("avconv -y -i images/image-%04d.jpg -r 10 video/timelapse.mp4")
         return True
 
 
