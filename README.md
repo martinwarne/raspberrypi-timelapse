@@ -26,6 +26,10 @@ The best way to install the requirements is through pip. To get pip if you don't
 then do
 
     pip install -r requirements.pip
+    
+ You'll also need avconv so do the following on the termainl
+ 
+    sudo apt-get install libav-tools
 
 ####Dropbox program
 
